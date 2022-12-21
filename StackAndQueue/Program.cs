@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StackAndQueue
 {
-    public class Problem
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -29,6 +29,12 @@ namespace StackAndQueue
             qu.Enqueue(56);
             qu.Enqueue(30);
             qu.Enqueue(70);
+            qu.Display();
+            qu.Dequeue();
+            qu.Display();
+            qu.Dequeue();
+            qu.Display();
+            qu.Dequeue();
             qu.Display();
         }
     }
